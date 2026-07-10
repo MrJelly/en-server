@@ -7,7 +7,7 @@
     {
       "binding": "DB",
       "database_name": "speaking-library",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "513f4cdd-0948-426e-a193-263a1e99b86d",
       "migrations_dir": "migrations"
     }
   ],
