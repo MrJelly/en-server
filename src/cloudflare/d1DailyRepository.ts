@@ -59,9 +59,10 @@ export class D1DailyRepository implements DailyRepository {
              s.normalized_text, c.translation_zh
       FROM corpus_sentences s
       JOIN lesson_cards c ON c.sentence_id = s.id
-      WHERE s.quality_status = 'approved' AND s.sample_bucket = ?1
+      WHERE s.quality_status = 'approved'
         AND c.status = 'published' AND c.daily_eligible = 1
-      ORDER BY s.id LIMIT ?2`).bind(bucket, Math.min(limit, 3)).all<CandidateRow>()
+      ORDER BY ((s.sample_bucket - ?1 + 1000) % 1000), s.id
+      LIMIT ?2`).bind(bucket, Math.min(limit, 3)).all<CandidateRow>()
     return result.results.map(toCard)
   }
 
