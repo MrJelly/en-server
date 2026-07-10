@@ -1,0 +1,33 @@
+{
+  "name": "speaking-corpus-service",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest run --config vitest.config.ts",
+    "type-check": "tsc --noEmit",
+    "cf-typegen": "wrangler types src/cloudflare/worker-configuration.d.ts",
+    "db:migrate:local": "wrangler d1 migrations apply speaking-library --local",
+    "db:migrate:remote": "wrangler d1 migrations apply speaking-library --remote",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "capacity": "tsx src/capacity/run.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.2",
+    "fastify": "^5.5.0",
+    "mysql2": "^3.14.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260710.1",
+    "@types/node": "^22.15.3",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.19.3",
+    "typescript": "~5.8.3",
+    "vitest": "^3.1.2",
+    "wrangler": "^4.38.0"
+  }
+}

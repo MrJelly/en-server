@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "speaking-library-api",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-07-10",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "speaking-library",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "speaking-library-media"
+    }
+  ],
+  "vars": {
+    "CORS_ORIGIN": "*"
+  }
+}

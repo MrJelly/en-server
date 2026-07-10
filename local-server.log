@@ -1,0 +1,35 @@
+
+> speaking-corpus-service@0.1.0 start D:\my\store\server
+> tsx src/index.ts
+
+{"level":30,"time":1783650150706,"pid":14964,"hostname":"SK-20251010VCQS","msg":"Server listening at http://127.0.0.1:3100"}
+{"level":30,"time":1783650150706,"pid":14964,"hostname":"SK-20251010VCQS","msg":"Server listening at http://198.18.0.1:3100"}
+{"level":30,"time":1783650150706,"pid":14964,"hostname":"SK-20251010VCQS","msg":"Server listening at http://100.67.223.126:3100"}
+{"level":30,"time":1783650150706,"pid":14964,"hostname":"SK-20251010VCQS","msg":"Server listening at http://172.168.8.66:3100"}
+{"level":30,"time":1783650150706,"pid":14964,"hostname":"SK-20251010VCQS","msg":"Server listening at http://172.19.32.1:3100"}
+{"level":30,"time":1783650152094,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-1","req":{"method":"GET","url":"/health","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":59439},"msg":"incoming request"}
+{"level":30,"time":1783650152097,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-1","res":{"statusCode":200},"responseTime":2.3315999999999804,"msg":"request completed"}
+{"level":30,"time":1783650152104,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-2","req":{"method":"GET","url":"/v1/daily?userId=local-tester&date=2026-07-10","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":59440},"msg":"incoming request"}
+{"level":30,"time":1783650152105,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-2","res":{"statusCode":200},"responseTime":0.7506000000000768,"msg":"request completed"}
+{"level":30,"time":1783650300462,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-3","req":{"method":"GET","url":"/","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":59544},"msg":"incoming request"}
+{"level":30,"time":1783650300462,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-3","msg":"Route GET:/ not found"}
+{"level":30,"time":1783650300462,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-3","res":{"statusCode":404},"responseTime":0.5665999999910127,"msg":"request completed"}
+{"level":30,"time":1783650300546,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-4","req":{"method":"GET","url":"/favicon.ico","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":59544},"msg":"incoming request"}
+{"level":30,"time":1783650300546,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-4","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1783650300547,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-4","res":{"statusCode":404},"responseTime":0.30019999999785796,"msg":"request completed"}
+{"level":30,"time":1783650760370,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-5","req":{"method":"GET","url":"/health","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":60212},"msg":"incoming request"}
+{"level":30,"time":1783650760370,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-5","res":{"statusCode":200},"responseTime":0.3353999999817461,"msg":"request completed"}
+{"level":30,"time":1783650895841,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-6","req":{"method":"GET","url":"/health","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":60338},"msg":"incoming request"}
+{"level":30,"time":1783650895842,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-6","res":{"statusCode":200},"responseTime":0.3416999999899417,"msg":"request completed"}
+{"level":30,"time":1783650895885,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-7","req":{"method":"GET","url":"/favicon.ico","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":60338},"msg":"incoming request"}
+{"level":30,"time":1783650895886,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-7","msg":"Route GET:/favicon.ico not found"}
+{"level":30,"time":1783650895886,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-7","res":{"statusCode":404},"responseTime":0.29440000001341105,"msg":"request completed"}
+{"level":30,"time":1783650903130,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-8","req":{"method":"GET","url":"/.well-known/appspecific/com.chrome.devtools.json","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":60338},"msg":"incoming request"}
+{"level":30,"time":1783650903130,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-8","msg":"Route GET:/.well-known/appspecific/com.chrome.devtools.json not found"}
+{"level":30,"time":1783650903130,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-8","res":{"statusCode":404},"responseTime":0.42249999998603016,"msg":"request completed"}
+{"level":30,"time":1783650906880,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-9","req":{"method":"GET","url":"/health","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":60338},"msg":"incoming request"}
+{"level":30,"time":1783650906881,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-9","res":{"statusCode":200},"responseTime":0.6687999999849126,"msg":"request completed"}
+{"level":30,"time":1783650906922,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-a","req":{"method":"GET","url":"/.well-known/appspecific/com.chrome.devtools.json","host":"127.0.0.1:3100","remoteAddress":"127.0.0.1","remotePort":60338},"msg":"incoming request"}
+{"level":30,"time":1783650906922,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-a","msg":"Route GET:/.well-known/appspecific/com.chrome.devtools.json not found"}
+{"level":30,"time":1783650906922,"pid":14964,"hostname":"SK-20251010VCQS","reqId":"req-a","res":{"statusCode":404},"responseTime":0.331899999990128,"msg":"request completed"}
+ ELIFECYCLE  Command failed with exit code 4294967295.
